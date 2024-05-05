@@ -1,1 +1,10 @@
 # MATLAB-Rainfall-Predictor
+
+For the most detailed overview of the project please refer to the design report:
+
+[MAE10S22 Final Project Report.pdf](https://github.com/ArasVakilimafakheri/MATLAB-Rainfall-Predictor/files/15211560/MAE10S22.Final.Project.Report.pdf)
+
+This report introduces a program in MATLAB designed to analyze and predict average annual rainfall patterns, emphasizing its practical application in daily life and critical industries like aviation. Recognizing the significant impact of weather on daily life, the program was aimed to provide an easy-to-use tool for the average person to understand and anticipate weather changes, be it for vacation or daily use. 
+The program processes limited data which includes the annual precipitation from five countries (USA, Saudi Arabia, UK, India, and Japan) over two decades (2000-2020). This data, compiled into Excel and later a MATLAB .mat file, forms the basis of the analysis. The program generates two primary column vectors representing annual rainfall and the corresponding years. A user-defined function then enables country-specific analysis through a series of conditional statements.
+Central to the program's functionality is its ability to calculate the mean rainfall and present it to the user. It provides supporting comments regarding the chosen country’s usual likeliness to experience rainfall using a series of conditional logical operators. The core analytical feature is fitting a first-degree line to the rainfall data, offering a forecast of the subsequent year's (2021) precipitation. Supplementary visual tools include a geographical map of the selected country, a bar graph of annual rainfall averages each year, a histogram of rainfall frequency, and a bar graph highlighting rainfall extremes and median values.
+While the current dataset is limited, the program's modular design allows for potential expansion to include global data. However, this broader application is outside this report's scope, which focuses on demonstrating the program's viability and utility. Future enhancements could include automation to reduce manual variable assignment.
